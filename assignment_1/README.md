@@ -247,3 +247,10 @@ It may be malware beacon, compromised host or C2 traffic.
 The ELK Stack experiment was able to show successful security log collection, visualization, and analysis on an Ubuntu VM. UFW firewall and authentication system logs were ingested, processed and visualized by Filebeat, Logstash, Elasticsearch, and Kibana. The dashboards developed gave a clear view of activity in the system and aided in identifying and knowing the possible threats.
 
 Multiple unusual activities including brute-force attacks, attempts at privilege escalation, and port scanning were detected using ten threat-hunting queries. Altogether, the experiment was quite successful in terms of monitoring, analysis and visualization of security events, which demonstrates that the ELK Stack, in its entirety, is a powerful service to be used in proactive security management of the system.
+
+
+http://localhost:5601/app/dashboards#/view/a16c4370-acf4-11f0-b111-cf7313121374?_g=(refreshInterval:(pause:!t,value:60000),time:(from:now-30d%2Fd,to:now))&_a=()
+
+http://localhost:5601/app/dashboards#/view/843fce80-ae56-11f0-8f7a-2d8059e8a229?_g=(refreshInterval:(pause:!t,value:60000),time:(from:now-30d%2Fd,to:now))&_a=()
+
+http://localhost:5601/app/dashboards#/view/03452f80-b4ed-11f0-a920-afad20d99058?_g=(refreshInterval:(pause:!t,value:60000),time:(from:now-30d%2Fd,to:now))&_a=()
