@@ -167,6 +167,8 @@ Threat Level: HIGH
 
 Port scanning is the initial phase for finding vulnerable services.
 
+![alt text](<Screenshot from 2025-10-30 00-16-52.png>)
+
 4. Suspicious File Access
 
 Monitors sensitive system files that was given access to the attacker.
@@ -177,6 +179,8 @@ Threat Level: CRITICAL
 
 If this files which was given access is compromised then all the data are lost.
 
+![alt text](<Screenshot from 2025-10-30 00-17-53.png>)
+
 5. After-Hours Activity
 
 Detect authentication attemptsin irregular hours then it might indicates the system is compromised.
@@ -186,6 +190,8 @@ event_type: ("failed_login" OR "successful_login" OR "sudo_command")
 Threat Level: MEDIUM to HIGH
 
 Context-dependent - could be valid maintenance or tradeof
+
+![alt text](<Screenshot from 2025-10-30 00-18-52.png>)
 
 6. Multiple Failed Logins Followed by Success
 
